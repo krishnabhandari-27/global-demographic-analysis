@@ -12,7 +12,7 @@ The project demonstrates API data collection, data cleaning, feature engineering
 
 Data was collected using:
 
-https://restcountries.com/v3.1/all
+[https://restcountries.com/v3.1/all] (https://restcountries.com/v3.1/all?fields=name,population,area,region,subregion,capital,independent)
 
 ### Selected Fields:
 - name
@@ -88,54 +88,4 @@ Population Density = Population / Area
 
 ---
 
-## ⚠️ Limitations
 
-- Snapshot dataset (no time-series analysis)
-- No GDP or economic indicators included
-- No migration or urbanization metrics
-- Density affected by extreme outliers
-
----
-
-## 🚀 Future Improvements
-
-- Merge with World Bank GDP dataset
-- Perform clustering analysis on countries
-- Build interactive dashboard using Streamlit
-- Add machine learning-based classification
-
----
-
-## ▶️ How to Run
-
-1. Clone the repository
-2. Install requirements:
-
-pip install -r requirements.txt
-
-3. Run the notebook inside /notebooks
-
----
-
-## 📌 Project Structure
-
-global-country-analysis/
-│
-├── data/
-│   └── countries_cleaned.csv
-│
-├── notebooks/
-│   └── eda_analysis.ipynb
-│
-├── images/
-│
-├── README.md
-│
-└── requirements.txt
-
----
-
-## 👨‍💻 Author
-
-Krishna Bhandari  
-BCA Student | Aspiring Data Scientist
